@@ -27,7 +27,7 @@ int main() {
         int outputValue = 50 + 20 * periodicity + 15 * seasonality + trend + noise;
 
         // Write the output value to the standard output
-        printf("%d\n", outputValue);
+        printf("%d:%d\n", outputValue,0);
         fflush(stdout);
 
         // Introduce a delay
